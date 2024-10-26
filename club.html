@@ -50,6 +50,23 @@
         a:hover {
             text-decoration: underline;
         }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .gallery .item {
+            width: 22%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
         footer {
             background-color: #343a40;
             color: white;
@@ -68,22 +85,41 @@
         <h2>¿Qué es la Programación Competitiva?</h2>
         <p>La <strong>programación competitiva</strong> es un deporte mental que implica resolver problemas algorítmicos en un entorno competitivo. Los participantes compiten resolviendo problemas complejos en un tiempo limitado utilizando lenguajes de programación como C++, Java, Python, entre otros.</p>
 
-        <h2>Beneficios de la Programación Competitiva</h2>
-        <ul>
-            <li>Mejora las habilidades de resolución de problemas.</li>
-            <li>Desarrolla un pensamiento lógico y analítico.</li>
-            <li>Aumenta la capacidad para trabajar bajo presión.</li>
-            <li>Abre oportunidades para participar en competiciones internacionales.</li>
-        </ul>
-
-        <h2>Plataformas Populares</h2>
-        <p>Algunas de las plataformas más populares para practicar y competir en programación competitiva son:</p>
-        <ul>
-            <li><a href="https://www.codeforces.com" target="_blank">Codeforces</a></li>
-            <li><a href="https://www.hackerrank.com" target="_blank">HackerRank</a></li>
-            <li><a href="https://www.leetcode.com" target="_blank">LeetCode</a></li>
-            <li><a href="https://www.atcoder.jp" target="_blank">AtCoder</a></li>
-        </ul>
+        <h2>Galería de Plataformas</h2>
+        <div class="gallery">
+            <div class="item">
+                <img src="codeforses.jpg" alt="Codeforces">
+                <p>Codeforces</p>
+            </div>
+            <div class="item">
+                <img src="HackerRank.jpg" alt="HackerRank">
+                <p>HackerRank</p>
+            </div>
+            <div class="item">
+                <img src="LeetCode.jpg" alt="LeetCode">
+                <p>LeetCode</p>
+            </div>
+            <div class="item">
+                <img src="AtCoder.jpg" alt="AtCoder">
+                <p>AtCoder</p>
+            </div>
+            <div class="item">
+                <img src="TopCoder.jpg" alt="TopCoder">
+                <p>TopCoder</p>
+            </div>
+            <div class="item">
+                <img src="CodeChef.jpg" alt="CodeChef">
+                <p>CodeChef</p>
+            </div>
+            <div class="item">
+                <img src="SPOJ.png" alt="SPOJ">
+                <p>SPOJ</p>
+            </div>
+            <div class="item">
+                <img src="Google Code Jam.png" alt="Google Code Jam">
+                <p>Google Code Jam</p>
+            </div>
+        </div>
 
         <h3>Consejos para Mejorar</h3>
         <p>Aquí tienes algunos consejos útiles para mejorar en la programación competitiva:</p>
