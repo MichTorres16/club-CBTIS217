@@ -23,10 +23,19 @@
             padding: 20px;
             max-width: 900px;
             margin: 20px auto;
+        }
+        .section {
+            padding: 20px;
             background: white;
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            border: 2px solid #007bff; /* Borde azul */
+            margin-bottom: 20px;
+        }
+        .pros {
+            border: 2px solid #007bff; /* Borde azul para pros */
+        }
+        .contras {
+            border: 2px solid #dc3545; /* Borde rojo para contras */
         }
         ul {
             padding: 0;
@@ -41,7 +50,12 @@
             width: 100px;
             height: auto;
             border-radius: 15px; /* Bordes redondeados de la imagen */
-            border: 2px solid #007bff; /* Borde azul en la imagen */
+        }
+        .pros img {
+            border: 2px solid #007bff; /* Borde azul para imágenes en Pros */
+        }
+        .contras img {
+            border: 2px solid #dc3545; /* Borde rojo para imágenes en Contras */
         }
     </style>
 </head>
@@ -51,49 +65,68 @@
     </header>
 
     <main>
-        <h2>Pros</h2>
-        <ul>
-            <li>Mejora la capacidad de resolución de problemas.
-                <img src="img1.jpg" alt="Mejora la resolución de problemas">
-            </li>
-            <li>Desarrolla el pensamiento crítico y analítico.
-                <img src="img2.jpg" alt="Pensamiento crítico y analítico">
-            </li>
-            <li>Fomenta habilidades en algoritmos y estructuras de datos.
-                <img src="img3.jpg" alt="Habilidades en algoritmos">
-            </li>
-            <li>Aumenta la capacidad de concentración y enfoque.
-                <img src="img4.jpg" alt="Capacidad de concentración">
-            </li>
-            <li>Mejora las habilidades de programación y conocimiento de lenguajes.
-                <img src="img5.jpg" alt="Habilidades de programación">
-            </li>
-            <li>Promueve la competencia sana.
-                <img src="img6.jpg" alt="Competencia sana">
-            </li>
-            <li>Facilita el trabajo en equipo y la colaboración.
-                <img src="img7.jpg" alt="Trabajo en equipo">
-            </li>
-            <li>Abre oportunidades profesionales.
-                <img src="img8.jpg" alt="Oportunidades profesionales">
-            </li>
-            <li>Desarrolla la capacidad para trabajar bajo presión.
-                <img src="img9.jpg" alt="Trabajo bajo presión">
-            </li>
-            <li>Mejora la capacidad de aprendizaje y adaptación.
-                <img src="img10.jpg" alt="Capacidad de aprendizaje">
-            </li>
-        </ul>
+        <div class="section pros">
+            <h2>Pros</h2>
+            <ul>
+                <li>Mejora la capacidad de resolución de problemas.
+                    <img src="img1.jpg" alt="Mejora la resolución de problemas">
+                </li>
+                <li>Desarrolla el pensamiento crítico y analítico.
+                    <img src="img2.jpg" alt="Pensamiento crítico y analítico">
+                </li>
+                <li>Fomenta habilidades en algoritmos y estructuras de datos.
+                    <img src="img3.jpg" alt="Habilidades en algoritmos">
+                </li>
+                <li>Aumenta la capacidad de concentración y enfoque.
+                    <img src="img4.jpg" alt="Capacidad de concentración">
+                </li>
+                <li>Mejora las habilidades de programación y conocimiento de lenguajes.
+                    <img src="img5.jpg" alt="Habilidades de programación">
+                </li>
+                <li>Promueve la competencia sana.
+                    <img src="img6.jpg" alt="Competencia sana">
+                </li>
+                <li>Facilita el trabajo en equipo y la colaboración.
+                    <img src="img7.jpg" alt="Trabajo en equipo">
+                </li>
+                <li>Abre oportunidades profesionales.
+                    <img src="img8.jpg" alt="Oportunidades profesionales">
+                </li>
+                <li>Desarrolla la capacidad para trabajar bajo presión.
+                    <img src="img9.jpg" alt="Trabajo bajo presión">
+                </li>
+                <li>Mejora la capacidad de aprendizaje y adaptación.
+                    <img src="img10.jpg" alt="Capacidad de aprendizaje">
+                </li>
+            </ul>
+        </div>
 
-        <h2>Contras</h2>
-        <ul>
-            <li>Puede generar estrés debido a la presión competitiva.
-                <img src="img11.jpg" alt="Estrés por la presión competitiva">
-            </li>
-            <li>Enfoque excesivo en algoritmos específicos puede limitar la creatividad.
-                <img src="img12.jpg" alt="Limitación de la creatividad">
-            </li>
-        </ul>
+        <div class="section contras">
+            <h2>Contras</h2>
+            <ul>
+                <li>Puede generar estrés debido a la presión competitiva.
+                    <img src="img11.jpg" alt="Estrés por la presión competitiva">
+                </li>
+                <li>Enfoque excesivo en algoritmos específicos puede limitar la creatividad.
+                    <img src="img12.jpg" alt="Limitación de la creatividad">
+                </li>
+                <li>Puede requerir muchas horas de práctica, lo cual consume tiempo.
+                    <img src="img13.jpg" alt="Consumo de tiempo excesivo">
+                </li>
+                <li>Fomenta la mentalidad de competición, lo que puede generar comparaciones constantes con otros.
+                    <img src="img14.jpg" alt="Mentalidad de competencia">
+                </li>
+                <li>Posibilidad de sobreespecialización en problemas algorítmicos, limitando habilidades prácticas.
+                    <img src="img15.jpg" alt="Sobreespecialización en algoritmos">
+                </li>
+                <li>Puede resultar frustrante si los progresos son lentos o los resultados no son los esperados.
+                    <img src="img16.jpg" alt="Frustración por falta de progreso">
+                </li>
+                <li>La presión por alcanzar un buen ranking puede desmotivar a algunos participantes.
+                    <img src="img17.jpg" alt="Presión por el ranking">
+                </li>
+            </ul>
+        </div>
     </main>
 </body>
 </html>
